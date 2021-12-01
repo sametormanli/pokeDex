@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: slategrey;
+    font-family: Cairo, sans-serif;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    font-family: Cairo;
+    background-color: springgreen;
+    transition: 1s;
+}
+
+button:hover {
+    box-shadow: 0 0 10px 1px greenyellow;
+    transition: 1s;
+}
+
+.container {
+    border: springgreen 3px solid;
+}
+
+label {
+    color: white;
+}
+
+#number {
+    font-size: 1.1em;
+    margin-right: .5em;
+    width: 3em;
+    text-align: center;
+}
